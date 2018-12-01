@@ -1,0 +1,175 @@
+/* app section one */
+.app-section-one {}
+.app-section-one.content-wrapper {
+  position: relative;
+}
+.app-section-one.mt-45{
+  margin-top: 45px;
+}
+.app-section-one picture img {
+  width: 100%;
+}
+.app-section-one .content-1 {
+    margin-top: -130px;
+    margin-bottom: 30px;
+}
+.app-section-one .content-full p {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.app-section-one .app-slider {
+  position: relative;
+  padding-top: 30px;
+}
+.app-section-one .app-slider ul.slick-dots{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.app-section-one .app-slider ul.slick-dots li{
+    list-style: none;
+    display: inline-block;
+}
+.app-section-one .app-slider ul.slick-dots li button {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: lightgray;
+    border: none;
+    margin: auto 2px;
+    text-indent: 50px;
+    overflow: hidden;
+}
+.app-section-one .app-slider ul.slick-dots li.slick-active button {background: gray}
+.app-section-one .content-1 h4 {
+    /* font-size: 1.2em; */
+    letter-spacing: 1px;
+}
+.app-section-one .bullet-icon img {
+  width:15px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.app-section-one .content-1 img,
+.app-section-one .download-wrapper img {
+    max-width: 95px;
+    margin-top: 10px;
+}
+.app-section-one .content figure {margin-bottom: 0;}
+.app-section-one .content .app-slider figure {
+    margin: 0 0 -0.5em;
+}
+
+.app-section-one .content + .content h4 {
+  /* font-size: 1.2em; */
+  letter-spacing: 1px;
+}
+.app-section-one .download-wrapper {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4f38+0,cc3325+72,cc3325+100 */
+background: #ff4f38; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ff4f38 0%, #cc3325 72%, #cc3325 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ff4f38 0%,#cc3325 72%,#cc3325 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ff4f38 0%,#cc3325 72%,#cc3325 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4f38', endColorstr='#cc3325',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+color: white;
+padding: 15px;
+}
+.app-section-one .download-wrapper h4 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.ios-note .line {
+  display: block;
+  width: 200px;
+  height: 1px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4f38+0,cc3325+50,cc3325+100&0+0,1+50,0+100 */
+  background: -moz-linear-gradient(left, rgba(255,79,56,0) 0%, rgba(204,51,37,1) 50%, rgba(204,51,37,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(255,79,56,0) 0%,rgba(204,51,37,1) 50%,rgba(204,51,37,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(255,79,56,0) 0%,rgba(204,51,37,1) 50%,rgba(204,51,37,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff4f38', endColorstr='#00cc3325',GradientType=1 ); /* IE6-9 */
+  margin: auto;
+  margin-top: 5px;
+}
+/* app section one */
+
+@media screen and (min-width: 769px) {
+
+  /* app section one */
+  .app-section-one.mt-45{
+    margin-top: 45px;
+  }
+  .app-section-one .conten-main-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+  .app-section-one .conten-main-wrapper .content-main {
+    width: 50%;
+    flex: 1;
+    padding: 40px;
+}
+  .app-section-one picture img {
+    width: 100%;
+  }
+  .app-section-one .content-1 {
+      margin-top: -200px;
+      margin-bottom: 40px;
+  }
+  .app-section-one .content-full p {
+    width: 70%;
+    font-size: 14px;
+  }
+  .app-section-one .app-slider {
+    position: relative;
+    padding-top: 0;
+    width: 50%;
+    padding: 50px;
+  }
+  .app-section-one .app-slider ul.slick-dots{
+      top: initial;
+      bottom: 0;
+  }
+  .app-section-one .content-1 h4 {
+      font-size: 30px;
+      top: -40px;
+  }
+  .app-section-one .content-1 p {
+      font-size: 18px;
+      width: 40%;
+  }
+  .app-section-one .content-1 p > br {
+    display: none;
+  }
+  .app-section-one .bullet-icon img {
+    width:25px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .app-section-one .content-1 img {
+      max-width: initial;
+      margin-top: 50px;    
+  }
+  .app-section-one .download-wrapper img {
+      max-width: initial;
+      margin-top: 0px;
+  }
+  .app-section-one .content figure {margin-bottom: 0;}
+  .app-section-one .content .app-slider figure {
+      margin: 0 0 -0.5em;
+  }
+
+  .app-section-one .content + .content h4 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .app-section-one .download-wrapper h4 {
+    font-size: 30px;
+  }
+
+
+} /* media query ends here */

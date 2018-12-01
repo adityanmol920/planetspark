@@ -1,0 +1,122 @@
+/* section one */
+
+.section-one {
+  height: 578px;
+  background: url("../images/ps-hs1-1-a.jpg") no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center center;
+}
+.section-one .btn {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-size: 10px;
+  top: 7px;
+  left: 4px;
+}
+.section-one .btn + .btn {
+  top: -5px;
+}
+.section-one h2 {
+  font-size: 15px;
+  position: relative;
+  line-height: 29px;
+  font-weight: inherit;
+  margin-top: 240px;
+  margin-bottom: 40px;
+}
+
+/* section two */
+.section-two {
+  height: 290px;
+}
+
+.section-two h2 {
+  margin: 30px auto;
+}
+
+/* section two */
+@media screen and (max-width: 769px) {
+  .row.desktop, .desktop{
+	  display:none;
+  }
+}
+@media screen and (min-width: 769px) {
+  .section-one {
+	  padding:20% 10% 10%;
+    background: url("../images/home-section-bg-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .section-one h2 {
+    position: relative;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: 50px;
+    width: 30%;
+    line-height: 1.8em;
+    font-size: 25px !important;
+    letter-spacing: 1px;;
+  }
+
+  .section-one h2 > br {
+    display: none;
+  }
+  .section-one .btn {
+    width: 200px;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 12px;
+    padding: 15px 20px;
+    height: auto !important;
+  }
+  .section-one .btn + .btn {
+    top: -5px;
+  }
+
+  h2.sec-title {
+    font-size: 24px;
+  }
+  .section-two p {
+    font-size: 14px;
+    width: 60%;
+    margin: auto;
+  }
+  .section-three {
+	  display:none !important;
+    background: #f8f8f8;
+    display: block;
+    position: relative;
+    padding: 40px 0;
+}
+  .section-three .content {width: 1200px;margin: auto;background: none;display: flex;justify-content: center;align-items: start;}
+  .section-three .content figure{
+    margin: auto;
+    padding: 3px;
+}
+  .section-three .content figure img{}
+  .our-journey .content{max-width:100vw !Important;}
+  .about-section-one{background:#fff !important;}
+}
+
+
+
+/*All media*/
+h2.sec-title:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(../images/dot.png);
+    z-index: 10;
+    margin: 20px 0;
+}
